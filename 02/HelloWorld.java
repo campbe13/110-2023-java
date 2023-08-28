@@ -1,5 +1,6 @@
 /*
 * Everyone's first program
+* author: P Campbell
 */ 
 
 class HelloWorld {

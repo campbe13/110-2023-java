@@ -6,7 +6,7 @@
 [maybe ref?](https://google.github.io/styleguide/javaguide.html)
 ## Comments
 Comments are ignored by the Java compiler.  They are not statements where the compiler needs to do something, so they don’t need semi-colons.
-They are for talking to your future self or any team mate who may read your code. 
+They are for being kind to your future self or any team mate who may read your code.  (Pay it forward 	:heart_eyes:)
 
 Java has 3 types of comments:
 
@@ -19,7 +19,7 @@ Java has 3 types of comments:
 */
 ```
 
-`/** javadocs comment used forgenerated documentation **/`
+`/** javadocs comment used for generated documentation **/`
 
 * A good comment will explain clearly what a complicated piece of code will do.
 * A bad comment will either mislead the user or provide unnecessary information (i.e. over commenting)
@@ -29,9 +29,9 @@ Java has 3 types of comments:
 TL;DR Code should have meaningful comments that explain what it is that you’re trying to accomplish
 ## Naming identifiers
 Identifiers must follow certain rules (syntax), an identifier may only contain:
-* letters a–z or A–Z, 
-* the digits 0–9, but not the first character
-* underscores (_), or  the dollar sign ($)  DO NOT USE these are for special methods
+* letters `a–z` or `A–Z` 
+* the digits `0–9`, but not for the first character
+* underscores `_`, or  the dollar sign `$`  DO NOT USE these are for special methods
 
 * Identifiers are case sensitive.  `itemsOrdered` is not the same as `itemsordered`.
 * Identifiers cannot include spaces.
@@ -48,6 +48,4 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
   * `MAX_CHICKENS`, `Math.PI`
 
 ## Structure
-Every time you open a { you should increase the indentation of all subsequent lines. Every time you close a } you should decrease the indentation of all subsequent lines.
-
-
+Every time you open a `{` you should increase the indentation of all subsequent lines. Every time you close a `}` you should decrease the indentation of all subsequent lines.

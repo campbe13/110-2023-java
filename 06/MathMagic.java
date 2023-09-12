@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class MathMagic {
     public static void main(String[] args) {
-        java.util.Scanner reader = new java.util.Scanner(System.in);
 		System.out.println("1/2: " + (1/2));
 		
 		System.out.println("1/2: " + (1/2));

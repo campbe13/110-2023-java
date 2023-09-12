@@ -15,7 +15,7 @@ Java has 3 types of comments:
 ```
 /* start of a comment block
 * can be multi line or single line
-* up to end of a comment
+* requires the next line to end it
 */
 ```
 
@@ -24,24 +24,24 @@ Java has 3 types of comments:
 * A good comment will explain clearly what a complicated piece of code will do.
 * A bad comment will either mislead the user or provide unnecessary information (i.e. over commenting)
 * Every block of code (class, method, grouping of a few lines...) should have comments
-* at this point more is better than fewer
+* At this point more is better than fewer comments
 
-TL;DR Code should have meaningful comments that explain what it is that you’re trying to accomplish
+**TL;DR** Code should have meaningful comments that explain what it is that you’re trying to accomplish
 ## Naming identifiers
 Identifiers must follow certain rules (syntax), an identifier may only contain:
 * letters `a–z` or `A–Z` 
 * the digits `0–9`, but not for the first character
 * underscores `_`, or  the dollar sign `$`  DO NOT USE these are for special methods
 
-* Identifiers are case sensitive.  `itemsOrdered` is not the same as `itemsordered`.
+* Identifiers are case sensitive  `itemsOrdered` is not the same as `itemsordered`.
 * Identifiers cannot include spaces.
 
 ### Naming specific identifiers, conventions
 * class – nouns starting with an uppercase letter, descriptive of their purpose
-  *  `AverageGrade`, `Employee`, `Ball`, `SmallestNumber`
+  *  `AverageGrade`, `Employee`, `Triangle`, `SmallestNumber`
 * methods – verbs starting with lowercase letter, descriptive of their functionality
-  * `getName()`, `computeOverTime()`
-  * exception – main()
+  * `getName()`, `calculateHourlyPay()`
+  * exception – `main()`
 * variables – start with lowercase, descriptive of their expected content
   * `employeeName`, `payRate`, `hoursWorked`
 * constants – all upper case, separate words with an underscore

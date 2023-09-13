@@ -1,9 +1,8 @@
 # Style Guide for coding in Java 2023
-**_for 420-110-DW Programming 1_** 
+**_for 420-110-DW Programming 1 [Dawson College](https://www.dawsoncollege.qc.ca)_** 
 
 **_Even if your program works, you won’t get full marks unless you follow these guidelines!_**
 
-[maybe ref?](https://google.github.io/styleguide/javaguide.html)
 ## Comments
 Comments are ignored by the Java compiler.  They are not statements where the compiler needs to do something, so they don’t need semi-colons.
 They are for being kind to your future self or any team mate who may read your code.  (Pay it forward 	:heart_eyes:)
@@ -54,6 +53,9 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
   * `employeeName`, `payRate`, `hoursWorked`
 * constants – all upper case, separate words with an underscore
   * `MAX_CHICKENS`, `Math.PI`
+* class, methods, variables use a convention called [CamelCase](https://en.wikipedia.org/wiki/Camel_case)  
 
 ## Structure
 Every time you open a `{` you should increase the indentation of all subsequent lines. Every time you close a `}` you should decrease the indentation of all subsequent lines.
+
+[maybe ref?](https://google.github.io/styleguide/javaguide.html)

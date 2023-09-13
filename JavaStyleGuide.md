@@ -30,7 +30,8 @@ Java has 3 types of comments:
 Identifiers must follow certain rules (syntax), an identifier may only contain:
 * letters `a–z` or `A–Z` 
 * the digits `0–9`, but not for the first character
-* underscores `_`, or  the dollar sign `$`  DO NOT USE these are for special methods
+* underscores `_`
+* dollar sign `$`  DO NOT USE these are for special methods
 
 * Identifiers are case sensitive  `itemsOrdered` is not the same as `itemsordered`.
 * Identifiers cannot include spaces.

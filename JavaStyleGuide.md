@@ -35,6 +35,14 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
 
 * Identifiers are case sensitive  `itemsOrdered` is not the same as `itemsordered`.
 * Identifiers cannot include spaces.
+* Identifiers cannot be Java reserved words [from oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html)
+ ```
+ abstract	continue	for	new	switch assert default	goto	package	synchronized 
+ boolean	do	if	private	this  break	double	implements	protected	throw
+ byte	else	import	public	throws case	enum	instanceof	return	transient
+ catch	extends	int	short	try char	final	interface	static	void
+ class	finally	long	strictfp	volatile const	float	native	super	while
+ ```
 
 ### Naming specific identifiers, conventions
 * class – nouns starting with an uppercase letter, descriptive of their purpose

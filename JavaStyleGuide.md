@@ -12,13 +12,19 @@ Java has 3 types of comments:
 `// all text on the line following the 2 slashes is a comment`
 
 ```
-/* start of a comment block
+/* 
+* start of a comment block
 * can be multi line or single line
 * requires the next line to end it
 */
 ```
 
-`/** javadocs comment used for generated documentation **/`
+```
+/** 
+* javadocs comment used for generated documentation 
+* usually multi line
+*/`
+```
 
 * A good comment will explain clearly what a complicated piece of code will do.
 * A bad comment will either mislead the user or provide unnecessary information (i.e. over commenting)
@@ -28,6 +34,7 @@ Java has 3 types of comments:
 **TL;DR** Code should have meaningful comments that explain what it is that you’re trying to accomplish
 ## Naming identifiers
 Identifiers must follow certain rules (syntax), an identifier may only contain:
+
 * letters `a–z` or `A–Z` 
 * the digits `0–9`, but not for the first character
 * underscores `_`
@@ -36,6 +43,7 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
 * Identifiers are case sensitive  `itemsOrdered` is not the same as `itemsordered`.
 * Identifiers cannot include spaces.
 * Identifiers cannot be Java reserved words [from oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html)
+
  ```
  abstract	continue	for	new	switch assert default	goto	package	synchronized 
  boolean	do	if	private	this  break	double	implements	protected	throw
@@ -43,6 +51,7 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
  catch	extends	int	short	try char	final	interface	static	void
  class	finally	long	strictfp	volatile const	float	native	super	while
  ```
+Java is case sensitive but do NOT use ex `Public`, `Class` etc, this is confusing so a bad practice.
 
 ### Naming specific identifiers, conventions
 * class – nouns starting with an uppercase letter, descriptive of their purpose
@@ -58,5 +67,16 @@ Identifiers must follow certain rules (syntax), an identifier may only contain:
 
 ## Structure
 Every time you open a `{` you should increase the indentation of all subsequent lines. Every time you close a `}` you should decrease the indentation of all subsequent lines.
-
+```
+public class Greetings {
+    public static void main(String args[]) {  
+          String msg = "Hello!";
+          final int MAX = 5;
+          int count  = 0;
+          while (count < 5) {
+                System.out.println(msg);
+          }
+    }
+}
+```
 [maybe ref?](https://google.github.io/styleguide/javaguide.html)

@@ -23,7 +23,7 @@ Java has 3 types of comments:
 /** 
 * javadocs comment used for generated documentation 
 * usually multi line
-*/`
+*/
 ```
 
 * A good comment will explain clearly what a complicated piece of code will do.
